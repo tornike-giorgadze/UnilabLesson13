@@ -1,0 +1,28 @@
+.section{
+    background-color:$color01;
+    height: 250px;
+    .wrapper{
+        display: flex;
+        .left-box{
+            max-width: $size01;
+            width: 100%;
+            height: $size02;
+            background-color:$color02;
+            .text{
+                font-size: $size03;
+                color:$color03;
+                font-family: $fontroboto;
+                &:hover{
+                    color: yellow;
+                }
+            }
+        }
+        .right-box{
+            max-width: 500px;
+            width: 100%;
+            height: 250px;
+            background-color:pink;
+
+        }
+    }
+}
